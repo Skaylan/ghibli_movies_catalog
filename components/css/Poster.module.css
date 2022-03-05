@@ -1,0 +1,31 @@
+.poster {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.poster h3 {
+    text-align: center;
+}
+
+.poster img {
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+.skeleton {
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background: hsl(200, 20%, 70%);
+    }
+    100% {
+        background: hsl(200, 20%, 95%);
+    }
+}
