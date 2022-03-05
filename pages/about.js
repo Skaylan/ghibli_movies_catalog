@@ -14,7 +14,7 @@ export default function About() {
             <p>As a fan of Ghibli Studio movies, i found perfect to use this particular api to learn NextJs and FrontEnd develoment in general.</p>
             <p>Sen to Chihiro no Kamikakushi (Spirited Away) is my favourite movie by the way, not my favourite Ghibli Studio movie, this is my favourite movie ever.</p>
             <p>I hope you find one of Ghibli's movie to love as i do. ♥</p>
-            <p>This is a non-oficcial Ghibli website, this project generates no profit and have no commercials intentions!</p>
+            <p>This is a non-official Ghibli website, this project generates no profit and have no commercials intentions!</p>
             <p>If you are a Ghibli Studios copyright holder, and believe that this project should not be online, please contact: dev.skaylan@gmail.com </p>
         </div>
     )
