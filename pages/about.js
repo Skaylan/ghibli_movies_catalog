@@ -1,9 +1,13 @@
 import Header from "../components/Header";
 import Title from "../components/Title";
 import styles from '../components/css/About.module.css'
+import Head from "next/head";
 export default function About() {
     return (
         <div className={styles.about_page}>
+            <Head>
+                <title>Abou Page</title>
+            </Head>
             <Header ref1="/" ref1_text='Home' ref2='/about' ref2_text2='About' />
             <Title text='About this website'/>
             <p>This website was developed with NextJS by <a className={styles.link} href="https://linkedin.com/in/lucas-gomes-oliveira" target='_blank' rel="noreferrer">Lucas Oliveira</a> using the the following api <a className={styles.link} href="https://ghibliapi.herokuapp.com/" target='_blank' rel="noreferrer">ghibliapi.herokuapp.com</a></p>

@@ -5,7 +5,6 @@ import Head from 'next/head'
 
 
 Router.events.on("routeChangeStart", (url) => {
-  console.log(`Loading: ${url}`);
   NProgress.start();
 });
 

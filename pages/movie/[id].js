@@ -4,6 +4,7 @@ import Title from '../../components/Title';
 import Header from '../../components/Header';
 import Info from '../../components/Info';
 import Poster from '../../components/Poster';
+import Head from 'next/head';
 
 
 export const getStaticPaths = async() => {
@@ -44,6 +45,9 @@ export async function getStaticProps(context) {
 export default function Movie({movie}) {
     return (
         <div className={styles.movie_page}>
+          <Head>
+            <title>{movie.title}</title>
+          </Head>
           <Header/>
           <Title text={movie.title} />
           <div className={styles.banner}>

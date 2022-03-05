@@ -3,6 +3,8 @@ import Card from '../components/Card';
 import Title from '../components/Title';
 import Link from 'next/link'
 import Header from '../components/Header';
+import Head from 'next/head';
+
 
 export async function getStaticProps() { 
   const data = await fetch('http://ghibliapi.herokuapp.com/films', {
@@ -21,6 +23,9 @@ export async function getStaticProps() {
 export default function Home({movies}) {
   return (
     <div className={styles.all}>
+      <Head>
+        <title>Home Page</title>
+      </Head>
       <Header />
       <Title text='Ghibli Movies Catalog' />
       <div className={styles.home}>
