@@ -4,7 +4,7 @@ import styles from '../components/css/About.module.css'
 export default function About() {
     return (
         <div className={styles.about_page}>
-            <Header ref1='/' ref1_text='Home' ref2='/about' ref2_text2='About' />
+            <Header ref1="/" ref1_text='Home' ref2='/about' ref2_text2='About' />
             <Title text='About this website'/>
             <p>This website was developed with NextJS by <a className={styles.link} href="https://linkedin.com/in/lucas-gomes-oliveira" target='_blank' rel="noreferrer">Lucas Oliveira</a> using the the following api <a className={styles.link} href="https://ghibliapi.herokuapp.com/" target='_blank' rel="noreferrer">ghibliapi.herokuapp.com</a></p>
             <p>As a fan of Ghibli Studio movies, i found perfect to use this particular api to learn NextJs and FrontEnd develoment in general.</p>

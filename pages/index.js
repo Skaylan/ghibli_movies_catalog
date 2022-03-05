@@ -25,7 +25,7 @@ export default function Home({movies}) {
       <Title text='Ghibli Movies Catalog' />
       <div className={styles.home}>
           {movies.map(movie => (
-            <Link key={movie.id} href={'/movie/' + movie.id}>
+            <Link key={movie.id} href={`/movie/${movie.id}`}>
               <a>
                 <Card title={movie.title} img={movie.image} key={movie.id} releaseDate={movie.release_date} />
               </a>
