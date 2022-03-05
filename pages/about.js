@@ -6,7 +6,7 @@ export default function About() {
     return (
         <div className={styles.about_page}>
             <Head>
-                <title>Abou Page</title>
+                <title>About Page</title>
             </Head>
             <Header ref1="/" ref1_text='Home' ref2='/about' ref2_text2='About' />
             <Title text='About this website'/>
