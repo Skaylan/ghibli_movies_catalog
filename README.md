@@ -1,4 +1,4 @@
-This website was developed with NextJS by Lucas Oliveira using the the following api ghibliapi.herokuapp.com
+This website was developed with NextJS by Lucas Oliveira (www.linkedin.com/in/lucas-gomes-oliveira) using the the following api ghibliapi.herokuapp.com
 
 As a fan of Ghibli Studio movies, i found perfect to use this particular api to learn NextJs and FrontEnd develoment in general.
 
